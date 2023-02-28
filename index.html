@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" href="C:\Users\Valentín\OneDrive\VALEN\CURSOS\PROYECTO FRONTEND\icons8-ecommerce-49.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="acciones.js"></script>
+    <title>Valentín Castilla</title>
+</head>
+
+<body>
+    <header> 
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobremi">Sobre mi</a>
+            <a href="#estudios">Estudios</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Consultas</a>
+        </nav>
+
+        <section class="inicio"> 
+            <div class="contenedor-presentacion">
+                <img class="foto-perfil" src="C:\Users\Valentín\OneDrive\VALEN\CURSOS\PROYECTO FRONTEND\2.jpg" alt="No se ha podido descargar la imagen";>
+                <div class="texto-header">
+                    <h1 class="titulo">Hola, soy</h1> 
+                    <h1 class="titulo" style="font-weight: 600;">VALENTÍN CASTILLA </h1> 
+                    <h3 class="subtitulo">Estudiante de Ciencia de Datos y Actuario</h3>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+        <br> 
+        <section id="sobremi">
+            <h2> Sobre mí</h2>
+            <p class="sobre-mi"> En búsqueda de una pasantía o part-time que me de la oportunidad de poder dar mis primeros pasos profesionales y adquirir herramientas pero que al mismo tiempo me de la posibilidad de continuar con mis estudios. Incursionando en el mundo de los Datos y el Trading. Utilizando la programación para poder agilizar operaciones en la Database y tomar decisiones más precisas.</p>
+        </section>
+
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <div class="cards">
+                <div class="card" id="card_change1"> 
+                    <h4 id="text_color1">LICENCIATURA EN CIENCIA DE DATOS</h4>
+                    <div class="content-card">
+                        <p id="text_color2">UNSAM</p>
+                        <p id="text_color3">2022 - Actualidad</p>
+                    </div>
+                    <p class="carrera-content" id="text_color4">"Carrera especializada en el análisis de datos para llevar a cabo una correcta toma de dicisiones"</p>
+                    <button type="button" class="btn btn-outline-warning" onclick="openLink(this)">Ver carerra</button>
+                </div>
+                <div class="card" id="card_change2"> 
+                    <h4 id="text_color5">LICENCIATURA EN ACTUARIO</h4>
+                    <div class="content-card">
+                        <p id="text_color6">UBA</p>
+                        <p id="text_color7">2020 - Actualidad</p>
+                    </div>
+                    <p class="carrera-content" id="text_color8">"La carrera te brinda las herramientas necesarias para la predicción de futuros riesgos económicos"</p>
+                    <button type="button" class="btn btn-outline-warning" onclick="opentoLink(this)">Ver carerra</button>
+                </div>
+            </div>
+            <div class="cambio_aspecto"> 
+                <p>Personalizar..</p>
+                <button type="button" id= "more_" class="btn btn-primary" onclick="toblue()" style="margin: 5px;">Azul</button>
+                <button type="button" id= "more_" class="btn btn-danger" onclick="tored()" style="margin: 5px;">Rojo</button>
+                <button type="button" id= "more_" class="btn btn-success" onclick="togreen()" style="margin: 5px;">Verde</button>
+                <button type="button" id= "more_" class="btn btn-warning" onclick="toyellow()" style="margin: 5px;">Amarillo</button>
+                <button type="button" id= "back_" class="btn btn-dark" onclick="tochangeback()" style="margin: 5px;">Default</button>    
+            </div>
+        </section>
+
+
+
+
+
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+
+            <div class="cards">
+                <div class="carta-nacion" id="card_nacion"> 
+                    <h4 id="text_nac1">BANCO NACIÓN ARGENTINA S.A.</h4>
+                    <div id="contenido-nacion" class="content-card1">
+
+                        <div class="showtext_nacion" id="showtext_nacion" style="display: block;"> 
+                            <p id="text_nac2">Atención al Cliente y Asesor Financiero</p>
+                            <p id="text_nac3">Gestión Monetaria y Manipulación de Datos Personales</p>
+                            <p id="text_nac4">06/2022 - Actualidad</p>
+                        </div>
+                        <span class= "texto-cartas" id="hidetext_nacion" style="display: none;">
+                            'Mi rol en el banco es atender y asesorar al usuario en las consultas que tenga. El cliente se comunica, por lo general, para recibir información de algún producto en particular. Estos servicios pueden ser Caja de Ahorro, Tarjeta de Débito, Funcionamiento de la Tarjeta de Crédito, Plazos Fijos, entre otras gestiones.'
+                        </span>
+                    </div>
+                    <div class="botonera"> 
+                        <button type="button" id= "more_" class="btn btn-outline-danger" onclick="toMore()">+</button>
+                        <button type="button" id= "back_" class="btn btn-outline-danger" onclick="toBack()">Less</button>    
+                    </div>
+                </div>
+    
+
+                <div class="carta-restaurante" id="card_rest"> 
+                    <h4>"LO DE LALITO" - RESTAURANTE</h4>
+                    <div class="content-card1">
+                        <div class="showtext_rest" id="showtext_rest" style="display: block;"> 
+                            <p>Servicio al Cliente, Kitchen Staff y Administración.</p>
+                            <p>12/2021 - 03/2022</p>
+                        </div>
+                        <span class= "texto-cartas" id="hidetext_rest" style="display: none;">
+                            'Prestigioso restaurante de Villa Gesell donde constante interacción con las personas me permitió afianzar y perfeccionar mi trato con los clientes y lograr habilidades resolutivas en momentos de tensión laboral'
+                        </span>
+                    </div>
+                    <div class="botonera"> 
+                        <button type="button" id= "more_" class="btn btn-outline-danger" onclick="toMore_R()">+</button>
+                        <button type="button" id= "back_" class="btn btn-outline-danger" onclick="toBack_R()">Less</button>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="carta-voluntariado" id="card_vol"> 
+                    <h4>Evento de "AAEP"</h4>
+                    <div class="content-card1">
+                        <div class="showtext_vol" id="showtext_vol" style="display: block;"> 
+                            <p>Voluntariado</p>
+                            <p>11/2021</p>
+                        </div>
+                        <span class= "texto-cartas" id="hidetext_vol" style="display: none;">
+                            'Organizador y Administrativo en un evento interanual de Ciencias Económicas y Políticas llevado a cabo por la AAEP (Asociación Argentina de Economía Política)'
+                        </span>
+                    </div>
+                    <div class="botonera"> 
+                        <button type="button" id= "more_vol" class="btn btn-outline-danger" onclick="toMore_V()">+</button>
+                        <button type="button" id= "back_vol" class="btn btn-outline-danger" onclick="toBack_V()">Less</button>    
+                    </div>
+                </div>
+    
+                <div class="carta-tutor" id="card_tut"> 
+                    <h4>TUTOR DE ALUMNOS EXTRANJEROS</h4>
+                    <div class="content-card">
+                        <div class="showtext_tut" id="showtext_tut" style="display: block;"> 
+                            <p>Voluntariado</p>
+                            <p>03/2022 - Actualidad</p>
+                        </div>
+                         <span class= "texto-cartas" id="hidetext_tut" style="display: none;">
+                            'Organizador y Administrativo en un evento interanual de Ciencias Económicas y Políticas llevado a cabo por la AAEP (Asociación Argentina de Economía Política)'
+                        </span>
+                    </div>
+                    <div class="botonera"> 
+                        <button type="button" id= "more_tut" class="btn btn-outline-danger" onclick="toMore_T()">+</button>
+                        <button type="button" id= "back_tut" class="btn btn-outline-danger" onclick="toBack_T()">Less</button>    
+                    </div>
+                </div>
+            </div>
+            <div class="cambio_aspecto"> 
+                <p>Personalizar..</p>
+                <button type="button" id= "more_" class="btn btn-primary" onclick="toblue_e()" style="margin: 5px;">Azul</button>
+                <button type="button" id= "more_" class="btn btn-danger" onclick="tored_e()" style="margin: 5px;">Rojo</button>
+                <button type="button" id= "more_" class="btn btn-success" onclick="togreen_e()" style="margin: 5px;">Verde</button>
+                <button type="button" id= "more_" class="btn btn-warning" onclick="toyellow_e()" style="margin: 5px;">Amarillo</button>
+                <button type="button" id= "more_" class="btn btn-info" onclick="toarcoiris_e()" style="margin: 5px;">Arcoiris</button>
+                <button type="button" id= "back_" class="btn btn-dark" onclick="tochangeback_e()" style="margin: 5px;">Default</button>    
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades">   
+                <div class="contenedor1">    
+                    <div class="content-hab1">
+                        <div class="todo"> 
+                            <p class="textskills">Paquete Office</p>
+                            <div class="barra">
+                                <div class="progreso" id="progre1" style="--w: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="todo"> 
+                            <p class="textskills">Python</p>
+                            <div class="barra">
+                                <div class="progreso" id="progre2" style="--w: 30%"></div>
+                            </div>
+                        </div>
+                        <div class="todo"> 
+                            <p class="textskills">HTML y CSS</p>
+                            <div class="barra">
+                                <div class="progreso" id="progre3" style="--w: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-hab2">
+                        <div class="todo"> 
+                            <p class="textskills">Ingles</p>
+                            <div class="barra">
+                                <div class="progreso" id="progre4" style="--w: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="todo"> 
+                            <p class="textskills">Chino</p>
+                            <div class="barra">
+                                <div class="progreso" id="progre5" style="--w: 20%" ></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-hab3">
+                        <div class="todo"> 
+                            <p class="textskills">Trading y Criptomonedas</p>
+                            <div class="barra">
+                                <div class="progreso" id="progre6" style="--w: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cambio_aspecto"> 
+                    <p>Personalizar..</p>
+                    <button type="button" id= "more_" class="btn btn-primary" onclick="toblue_h()" style="margin: 5px;">Azul</button>
+                    <button type="button" id= "more_" class="btn btn-danger" onclick="tored_h()" style="margin: 5px;">Rojo</button>
+                    <button type="button" id= "more_" class="btn btn-success" onclick="togreen_h()" style="margin: 5px;">Verde</button>
+                    <button type="button" id= "more_" class="btn btn-warning" onclick="toyellow_h()" style="margin: 5px;">Amarillo</button>
+                    <button type="button" id= "more_" class="btn btn-info" onclick="toarcoiris_h()" style="margin: 5px;">Arcoiris</button>
+                    <button type="button" id= "back_" class="btn btn-dark" onclick="tochangeback_h()" style="margin: 5px;">Default</button>    
+                </div>
+            </div>
+
+        </section>
+        <section id="contacto">
+            <h2>Consultas</h2>
+            <div class="consultas"> 
+                <form method="post">
+                    <div class="consultas"> 
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">Nombre y Apellido</span>
+                            <input type="text" class="form-control" placeholder="Escriba su nombre completo" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Ingrese un gmail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                        </div>
+                        <div class="input-group">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccionar el motivo de tu consulta</option>
+                                <option value="Proyectos">Proyectos a futuro</option>
+                                <option value="HTML y CSS">HTML y CSS</option>
+                                <option value="Activos">Activos y Criptomonedas</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text">Escribí tu mensaje</span>
+                            <textarea class="form-control" aria-label="With textarea" placeholder="No exceder las 200 palabras"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="flexSwitchCheckDefault" style="color: azure;">¿Buscas una respuesta urgente? En caso de que así sea, nos contactaremos con vos en los próximos 5 días hábiles.</label>
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <br>
+                <br>
+                <br>
+                <div class="content-hab3">
+                    <button type="button" class="btn btn-lg btn-block btn-outline-warning" style="box-shadow: 15px 15px 25px rgba(0,0,0,0.5)" onclick="toTop()">VOLVER ARRIBA</button>
+               </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+    <footer>
+        <h5 class="datos">DATOS DE CONTACTO</h5>
+        <div class="contenedor-footer">
+            <div class="content-foot"> 
+                <h6>Celular</h6>
+                <p>+11 1234-5678</p>
+            </div>
+            <div class="content-foot"> 
+                <h6>Zona</h6>
+                <p>Buenos Aires, Argentina</p>
+            </div>
+            <div class="content-foot"> 
+                <h6>Mail</h6>
+                <p>example@gmail.com</p>
+            </div>
+            <div class="content-foot"> 
+                <h6>Redes Sociales</h6>
+                <p>@abcd.456</p>
+            </div>
+            <div class="content-foot"> 
+                <h6>Linkedin</h6>
+                <p>abcd.abcd</p>
+            </div>
+        </div>
+        <h5 class="titulo-final">&copy; Valentín Castilla | Proyecto FrontEnd | AP 4.0</h5>
+    </footer>
+ 
+</body>
+</html>

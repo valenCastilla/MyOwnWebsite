@@ -1,0 +1,1728 @@
+/** -------------------- -------------------- MIN 1024px -------------------- -------------------- */
+
+
+@media screen and (min-width:1024px){
+  * {                              /** ----- ----- ----- General ----- ----- ---- */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  /** ----- ----- ----- Body ----- ----- ---- */
+
+  body {                            
+    background: rgb(27,27,27);
+    background: linear-gradient(173deg, rgba(27,27,27,1) 32%, rgba(39,41,57,1) 53%, rgba(30,30,52,1) 75%, rgba(33,36,36,1) 88%);
+  }
+
+
+  body::-webkit-scrollbar{
+    width: 10px;
+    background: #1f1f24;
+    opacity: 0%;
+  }
+
+  body::-webkit-scrollbar-thumb{
+    background: #4b4b4b;
+    border-radius: 60px;
+  }
+
+  body::-webkit-scrollbar-thumb:hover{
+    background: #707070;
+
+  }
+
+  /** ----- ----- ----- HEADER ----- ----- ---- */
+
+  header {      
+    width: 100%;
+    height: 15%;
+    /* <img class="foto-perfil"src="C:\Users\Valentín\OneDrive\VALEN\CURSOS\PROYECTO FRONTEND\2.jpg" alt="No se ha podido descargar la imagen"; style="width:320px;height:400px;"> */
+    background: url(https://templatemo.com/templates/templatemo_506_tinker/img/banner_bg.jpg); 
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 15px 45px #354044;
+    
+    
+  }
+
+
+  .titulo {                       /** ----- ----- ----- Titulo Principal ----- ----- ---- */
+    font-family: "Poppins";
+    color: azure; 
+    font-size: 35px;
+  }
+
+  .subtitulo {       /** ----- ----- ----- Subtítulo ----- ----- ---- */
+    font-weight:500;
+    font-size: 20px;
+    font-family: "Poppins";
+    color: azure;
+    padding-top: 20px;
+  }
+
+  .foto-perfil {    /** ----- ----- ----- Foto Perfil ----- ----- ---- */
+    padding-top: 20px;
+    height:35%;
+    width:28%;
+    border-radius: 5px;
+  }
+
+    
+  .contenedor-presentacion{     /** ----- ----- ----- Contenedor foto + titulo ----- ----- ---- */
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+
+  /** ----- ----- ----- BARRA DE NAVEGACIÓN ----- ----- ---- */
+
+  nav {        /** -----  Barra General  ---- */
+    font-family: "Poppins";
+    color: azure; 
+    text-align: right;
+    padding: 30px 20px 0 0;
+  }
+
+  nav > a {       /** -----  Barra   ----- */
+    color: #ffff;
+    font-weight: 300 px;
+    text-decoration: none;
+    margin-right: 15px; 
+  }
+
+  nav > a:hover {      /** -----  Barra Hover  ---- */
+    text-decoration: underline;
+  }
+
+
+
+  /** ----- ----- ----- Titulos ----- ----- ----- */
+
+
+  h2{         /** -----  Todos los H2  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 20px 10px 20px;
+    border-bottom: 2px solid #ffffb7;
+    padding: 1 2em;
+    margin: 1em 5em 2em 5em ;
+    /**
+    background-color: #ffffb7;
+    line-height: 1.5;
+    padding: 1 2em;
+    margin: 2em;
+    border-style: outset;*/
+  }
+
+  h4 {      /** -----  Todos los H4  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+ /** ----- ----- ----- Resto del texto ----- ----- ----- */
+
+  p {      /** -----  Todos los parrafos  ---- */
+    color: azure;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  } 
+
+  .sobre-mi{         /** -----  Texto sobre mi  ---- */
+    color: azure;
+    padding: 20px 100px 20px 100px;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: "Poppins"
+  }
+
+  .texto-cartas{        /** -----  Texto cartas  ---- */
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+
+  /** ----- ----- ----- CARTAS DE ESTUDIO ----- ----- ----- */
+
+
+  .cards{              /** -----  Todas las cartas  ---- */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+  }
+
+  .cards .card{        /** -----  Carta de estudio  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 30%;
+    height: 390px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 15px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  }
+
+  .content-card {     /** -----  Carta de estudio, voluntariado y tutor  ---- */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .carrera-content{      /** -----  Descripción de cada carerra  ---- */
+    color: azure;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  } 
+
+
+  /** ----- ----- ----- CARTAS DE EXPERIENCIA ----- ----- ----- */
+
+  .carta-nacion{      /** -----  Carta Nación  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 45%;
+    height: 320px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 15px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-nacion{        /** -----  Descripción funciones en el nación  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  }
+
+  .carta-restaurante{      /** -----  Carta Restaurante  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 30%;
+    height: 320px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 15px 30px 30px 30px;
+    border-right: 2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5)
+  } 
+
+
+  .lista-restaurante{         /** -----  Descripción funciones en Restaurante  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  }
+
+
+  .content-card1{     /** -----  Content card Nación y restaurante  ---- */
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  .carta-voluntariado{      /** -----  Carta Voluntariado  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 30%;
+    height: 250px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+  .carta-tutor{      /** -----  Carta Tutor ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 45%;
+    height: 250px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 15px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+  /** ----- ----- ----- Botones de cambio de Color ----- ----- ----- */
+
+  .botonera{          /** ----- Botonera ---- */
+    display: flex;
+    position: relative;
+    flex-direction: end;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: end right;
+  
+  }
+
+  .cambio_aspecto{      /** ----- Cambio de aspecto ---- */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: end right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  /** ----- ----- ----- HABILIDADES ----- ----- ----- */
+
+  .content-hab1 , .content-hab2 , .content-hab3 {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+
+  .todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /** Display flex y poner column y centrado para que este uno arriba del otro */
+  }
+
+  .textskills{
+    font-size: 22px;
+  }
+
+  .barra{
+    width: 200px;
+    height: 15px;
+    margin: 10px;
+    background: rgba(225,225,225,0.5);
+    /** *background: rgba(225,225,225,0.5); */
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5)y;
+    /* box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);*/
+
+  }
+  .progreso{
+    width: var(--w);
+    height: 100%;
+    background: #d2f15fd8;
+    /** background: rgba(225,225,225,0.5);*/
+    border-radius: 10px;
+    animation: Aumentar 4s ease;
+  }
+
+  @keyframes Aumentar{
+    0%{width: 0%;}
+    100%{width: var(--w);}
+  }
+
+
+
+
+
+  /** ----- ----- ----- CONSULTAS ----- ----- ----- */
+
+  .input-group {     /** ----- Cuadro Completo de consultas ---- */
+    padding: 10px 200px 15px 200px;
+  }
+
+
+  /** ----- ----- ----- FOOTER ----- ----- ----- */
+
+
+  footer {      /** ----- Configuración General ---- */
+    background: #212424;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .contenedor-footer{    /** ----- Contenedor general de footer ---- */
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .content-foo{                /** ----- H6 + texto por debajo ---- */
+    text-align: center;
+  }
+
+  .content-foot h6{           /** ----- H6 + Border Bottom ---- */
+    color: #777777;
+    border-bottom: 3px solid #ffffb7;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .content-foot p{        /** ----- texto por debajo ---- */
+    color: azure;
+  }
+
+  .titulo-final, .datos{      /** ----- Datos de contacto + texto final ---- */
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    color: #3d3d3d;
+    padding: 20px 0 20px 0;
+
+  }
+
+}
+
+
+
+
+/** -------------------- --------------------  MIN 760 - MAX 1023px -------------------- -------------------- */
+
+/** -------------------- --------------------  MIN 760 - MAX 1023px -------------------- -------------------- */
+
+/** -------------------- --------------------  MIN 760 - MAX 1023px -------------------- -------------------- */
+
+
+
+
+
+@media screen and (max-width:1023px){
+
+  * {           /** ----- ----- ----- General ----- ----- ---- */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {         /** ----- ----- ----- Body ----- ----- ---- */
+    background: rgb(27,27,27);
+    background: linear-gradient(173deg, rgba(27,27,27,1) 32%, rgba(39,41,57,1) 53%, rgba(30,30,52,1) 75%, rgba(33,36,36,1) 88%);
+  }
+
+  /** ----- ----- ----- HEADER ----- ----- ---- */
+
+  header {       
+    width: 100%;
+    height: 15%;
+    /* <img class="foto-perfil"src="C:\Users\Valentín\OneDrive\VALEN\CURSOS\PROYECTO FRONTEND\2.jpg" alt="No se ha podido descargar la imagen"; style="width:320px;height:400px;"> */
+    background: url(https://templatemo.com/templates/templatemo_506_tinker/img/banner_bg.jpg);
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 15px 45px #354044;
+  }
+
+
+  .contenedor-presentacion{      /** ----- ----- ----- Contenedor foto + titulo ----- ----- ---- */
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .titulo {               /** ----- ----- ----- Titulo Principal ----- ----- ---- */
+    font-family: "Poppins";
+    color: azure; 
+    font-size: 30px;
+  }
+
+  .subtitulo {          /** ----- ----- ----- Subtítulo ----- ----- ---- */
+    font-weight:500;
+    font-size: 15px;
+    font-family: "Poppins";
+    color: azure;
+    padding-top: 10px;
+  }
+
+  .foto-perfil {    /** ----- ----- ----- Foto Perfil ----- ----- ---- */
+    padding-top: 20px;
+    height:33%;
+    width:30%;
+  }
+
+
+   /** ----- ----- ----- BARRA DE NAVEGACIÓN ----- ----- ---- */
+
+
+  nav {             /** -----  Barra General  ---- */
+    font-family: "Poppins";
+    color: azure; 
+    text-align: right;
+    padding: 30px 20px 0 0;
+  }
+
+  nav > a {       /** -----  Barra   ----- */
+    color: #ffff;
+    font-weight: 300 px;
+    text-decoration: none;
+    margin-right: 15px; 
+  }
+
+  nav > a:hover {       /** -----  Barra Hover  ---- */
+    text-decoration: underline;
+  }
+
+
+
+  /** ----- ----- ----- Titulos ----- ----- ----- */
+
+
+  h2{         /** -----  Todos los H2  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 20px 10px 20px;
+    border-bottom: 2px solid #ffffb7;
+    padding: 1 2em;
+    margin: 1em 5em 2em 5em ;
+    /**
+    background-color: #ffffb7;
+    line-height: 1.5;
+    padding: 1 2em;
+    margin: 2em;
+    border-style: outset;*/
+  }
+
+  h4 {          /** -----  Todos los H4  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+  /** ----- ----- ----- Resto del texto ----- ----- ----- */
+
+
+  p {     /** -----  Todos los parrafos  ---- */
+    color: azure;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  } 
+
+  .sobre-mi{        /** -----  Texto sobre mi  ---- */
+    color: azure;
+    padding: 20px 100px 20px 100px;
+    align-items: center;
+    text-align: center;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Poppins"
+    
+  }
+
+
+  
+     /** ----- ----- ----- Cartas de estudio ----- ----- ----- */
+
+
+  .cards{              /** -----  Todas las cartas  ---- */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .cards .card{       /** -----  Carta de estudio  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 33%;
+    height: 420px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  }
+
+  .content-card {      /** -----  Carta de estudio, voluntariado y tutor  ---- */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .carrera-content{     /** -----  Descripción de cada carerra  ---- */
+    color: azure;
+    color: azure;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  } 
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+
+  .cambio_aspecto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: end right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+
+  /** ----- ----- ----- CARTAS DE EXPERIENCIA ----- ----- ----- */
+
+
+  .carta-nacion{      /** -----  Carta Nación  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 40%;
+    height: 380px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-nacion{ /** -----  Descripción funciones en el nación  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  }
+
+  .carta-restaurante{      /** -----  Carta Restaurante  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 25%;
+    height: 380px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-restaurante{     /** -----  Descripción funciones en Restaurante  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+    
+  }
+
+
+  .content-card1{         /** -----  Content card Nación y restaurante  ---- */
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  .carta-voluntariado{          /** -----  Carta Voluntariado  ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 25%;
+    height: 250px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+  .carta-tutor{           /** -----  Carta Tutor ---- */
+    background: #27282D; 
+    /** display: flex; */ 
+    width: 40%;
+    height: 250px;
+    align-items: left;
+    /** justify-content: space-evenly; */
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .texto-cartas{      /** -----  Texto cartas  ---- */
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+
+  /** ----- ----- ----- HABILIDADES ----- ----- ----- */
+
+
+  .content-hab1 , .content-hab2 , .content-hab3 {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  
+  .todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /** Display flex y poner column y centrado para que este uno arriba del otro */
+  }
+
+  .textskills{
+    font-size: 18px;
+  }
+
+  .barra{
+    width: 180px;
+    height: 12px;
+    margin: 10px;
+    background: rgba(225,225,225,0.5);
+    /** *background: rgba(225,225,225,0.5); */
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);
+    /* box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);*/
+
+  }
+  .progreso{
+    width: var(--w);
+    height: 100%;
+    background: #d2f15fd8;
+    /** background: rgba(225,225,225,0.5);*/
+    border-radius: 10px;
+    animation: Aumentar 4s ease;
+  }
+
+  @keyframes Aumentar{
+    0%{width: 0%;}
+    100%{width: var(--w);}
+  }
+
+
+  /** ----- ----- ----- CONSULTAS ----- ----- ----- */
+
+
+  .input-group {     /** ----- Cuadro Completo de consultas ---- */
+    padding: 10px 120px 15px 120px;
+  }
+
+
+
+  /** ----- ----- ----- FOOTER ----- ----- ----- */
+
+
+  footer {      /** ----- Configuración General ---- */
+    background: #212424;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .contenedor-footer{     /** ----- Contenedor general de footer ---- */
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .content-foo{                 /** ----- H6 + texto por debajo ---- */
+    text-align: center;
+  }
+
+  .content-foot h6{            /** ----- H6 + Border Bottom ---- */
+    color: #777777;
+    border-bottom: 3px solid #ffffb7;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .content-foot p{        /** ----- texto por debajo ---- */
+    color: azure;
+  }
+
+  .titulo-final, .datos{      /** ----- Datos de contacto + texto final ---- */
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    color: #3d3d3d;
+    padding: 20px 0 20px 0;
+
+  }
+}
+
+
+
+/** -------------------- --------------------  MIN 400px - MAX 759px -------------------- -------------------- */
+
+/** -------------------- --------------------  MIN 400px - MAX 759px -------------------- -------------------- */
+
+/** -------------------- --------------------  MIN 400px - MAX 759px -------------------- -------------------- */
+
+
+
+
+
+@media screen and (max-width:759px){
+
+  * {             /** ----- ----- ----- General ----- ----- ---- */
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {         /** ----- ----- ----- Body ----- ----- ---- */
+    background: rgb(27,27,27);
+    background: linear-gradient(173deg, rgba(27,27,27,1) 32%, rgba(39,41,57,1) 53%, rgba(30,30,52,1) 75%, rgba(33,36,36,1) 88%);
+  }
+
+  
+
+  header {        /** ----- ----- ----- HEADER ----- ----- ---- */
+    width: 100%;
+    height: 15%;
+    /* <img class="foto-perfil"src="C:\Users\Valentín\OneDrive\VALEN\CURSOS\PROYECTO FRONTEND\2.jpg" alt="No se ha podido descargar la imagen"; style="width:320px;height:400px;"> */
+    background: url(https://templatemo.com/templates/templatemo_506_tinker/img/banner_bg.jpg);
+    
+   
+    box-shadow: 20px 15px 45px #354044;
+    background-position: center;
+   
+   
+  }
+
+
+  .contenedor-presentacion{     /** ----- ----- ----- Contenedor foto + titulo ----- ----- ---- */
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .titulo {             /** ----- ----- ----- Titulo Principal ----- ----- ---- */
+    font-family: "Poppins";
+    color: azure; 
+    font-size: 30px;
+  }
+
+  .subtitulo {       /** ----- ----- ----- Subtítulo ----- ----- ---- */
+    font-weight:500;
+    font-size: 15px;
+    font-family: "Poppins";
+    color: azure;
+    padding-top: 10px;
+  }
+
+  .foto-perfil {    /** ----- ----- ----- Foto Perfil ----- ----- ---- */
+    padding-top: 20px;
+    height:33%;
+    width:30%;
+    margin-right: 10px;
+  }
+
+  /** ----- ----- ----- BARRA DE NAVEGACIÓN ----- ----- ---- */
+
+
+  nav {        /** -----  Barra General  ---- */
+    font-family: "Poppins";
+    color: azure; 
+    text-align: center;
+    padding: 30px 5px 5px 5px;
+  }
+
+  nav > a {     /** -----  Barra   ----- */
+    color: #ffff;
+    font-weight: 300 px;
+    text-decoration: none;
+    margin-right: 5px; 
+  }
+
+  nav > a:hover {       /** -----  Barra Hover  ---- */
+    text-decoration: underline;
+  }
+
+
+
+  /** ----- ----- ----- Titulos ----- ----- ----- */
+
+
+  h2{         /** -----  Todos los H2  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 20px 10px 20px;
+    border-bottom: 2px solid #ffffb7;
+    padding: 1 2em;
+    margin: 1em 5em 2em 5em ;
+    
+    /**
+    background-color: #ffffb7;
+    line-height: 1.5;
+    padding: 1 2em;
+    margin: 2em;
+    border-style: outset;*/
+
+  }
+
+  h4 {      /** -----  Todos los H4  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+  /** ----- ----- ----- Resto del texto ----- ----- ----- */
+
+
+  p {     /** -----  Todos los parrafos  ---- */
+    color: azure;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+
+  } 
+
+  .sobre-mi{        /** -----  Texto sobre mi  ---- */
+    color: azure;
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    text-align: center;
+    font-weight:500;
+    font-size: 12px;
+    line-height: 1.6;
+    font-family: "Poppins"
+    
+  }
+
+
+  /** ----- ----- ----- CARTAS DE ESTUDIO ----- ----- ----- */
+
+
+  .cards{               /** -----  Todas las cartas  ---- */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .cards .card{       /** -----  Carta de estudio  ---- */
+    background: #27282D; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 66%;
+    height: 360px;
+    align-items: left;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  }
+
+  .content-card {     /** study, voluntariado and tutorcontent card */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .carrera-content{     /** -----  Descripción de cada carerra  ---- */
+    color: azure;
+    display: flex;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  } 
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+
+  .cambio_aspecto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: end right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+
+  /** ----- ----- ----- CARTAS DE EXPERIENCIA ----- ----- ----- */
+
+
+  .carta-nacion{      /** -----  Carta Nación  ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-nacion{        /** -----  Descripción funciones en el nación  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  }
+
+  .atencion{
+    display: none;
+  }
+
+  .carta-restaurante{      /** -----  Carta Restaurante  ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-restaurante{       /** -----  Descripción funciones en Restaurante  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+    
+  }
+
+
+  .content-card1{     /** -----  Content card Nación y restaurante  ---- */
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  .carta-voluntariado{      /** -----  Carta Voluntariado  ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+  .carta-tutor{      /** -----  Carta Tutor ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+
+  .texto-cartas{        /** -----  Texto cartas  ---- */
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  /** ----- ----- ----- HABILIDADES ----- ----- ----- */
+
+  .content-hab1 , .content-hab2 , .content-hab3 {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+
+
+  .todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /** Display flex y poner column y centrado para que este uno arriba del otro */
+  }
+
+  .textskills{
+    font-size: 17px;
+  }
+
+  .barra{
+    width: 100px;
+    height: 10px;
+    margin: 10px;
+    background: rgba(225,225,225,0.5);
+    /** *background: rgba(225,225,225,0.5); */
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5)y;
+    /* box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);*/
+
+  }
+  .progreso{
+    width: var(--w);
+    height: 100%;
+    background: #d2f15fd8;
+    /** background: rgba(225,225,225,0.5);*/
+    border-radius: 10px;
+    animation: Aumentar 4s ease;
+  }
+
+  @keyframes Aumentar{
+    0%{width: 0%;}
+    100%{width: var(--w);}
+  }
+
+
+  
+  /** ----- ----- ----- CONSULTAS ----- ----- ----- */
+
+  .input-group {     /** ----- Cuadro Completo de consultas ---- */
+    padding: 10px 40px 15px 40px;
+  }
+
+
+  /** ----- ----- ----- FOOTER ----- ----- ----- */
+
+  footer {      /** ----- Configuración General ---- */
+    background: #212424;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .contenedor-footer{    /** ----- Contenedor general de footer ---- */
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .content-foo{                /** ----- H6 + texto por debajo ---- */
+    text-align: center;
+  }
+
+  .content-foot h6{           /** ----- H6 + Border Bottom ---- */
+    border-bottom: 3px solid #ffffb7;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .content-foot p{        /** ----- texto por debajo ---- */
+    color: azure;
+  }
+
+  .titulo-final, .datos{      /** ----- Datos de contacto + texto final ---- */
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    color: #3d3d3d;
+    padding: 20px 0 20px 0;
+
+  }
+
+}
+
+
+
+
+/** -------------------- -------------------- MAX 400px -------------------- -------------------- */
+
+/** -------------------- -------------------- MAX 400px -------------------- -------------------- */
+
+/** -------------------- -------------------- MAX 400px -------------------- -------------------- */
+
+
+
+@media screen and (max-width:400px){
+
+  * {            /** ----- ----- ----- General ----- ----- ---- */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {           /** ----- ----- ----- Body ----- ----- ---- */
+    background: rgb(27,27,27);
+    background: linear-gradient(173deg, rgba(27,27,27,1) 32%, rgba(39,41,57,1) 53%, rgba(30,30,52,1) 75%, rgba(33,36,36,1) 88%);
+  }
+
+
+  /** ----- ----- ----- HEADER ----- ----- ---- */
+
+  header {        
+    width: 100%;
+    height: 15%;
+    /* <img class="foto-perfil"src="C:\Users\Valentín\OneDrive\VALEN\CURSOS\PROYECTO FRONTEND\2.jpg" alt="No se ha podido descargar la imagen"; style="width:320px;height:400px;"> */
+    background: url(https://templatemo.com/templates/templatemo_506_tinker/img/banner_bg.jpg);
+  
+    
+    background-position: center;
+   
+   
+  }
+
+
+  .contenedor-presentacion{     /** ----- ----- ----- Contenedor foto + titulo ----- ----- ---- */
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .titulo {             /** ----- ----- ----- Titulo Principal ----- ----- ---- */
+    font-family: "Poppins";
+    color: azure; 
+    font-size: 15px;
+  }
+
+  .subtitulo {       /** ----- ----- ----- Subtítulo ----- ----- ---- */
+    font-weight:500;
+    font-size: 10px;
+    font-family: "Poppins";
+    color: azure;
+    padding-top: 10px;
+  }
+
+  .foto-perfil {    /** ----- ----- ----- Foto Perfil ----- ----- ---- */
+    padding-top: 20px;
+    height:33%;
+    width:30%;
+    margin-right: 10px;
+  }
+
+
+
+  /** ----- ----- ----- BARRA DE NAVEGACIÓN ----- ----- ---- */
+
+  nav {        /** -----  Barra General  ---- */
+    font-family: "Poppins";
+    color: azure; 
+    text-align: center;
+    padding: 30px 5px 5px 5px;
+  }
+
+  nav > a {       /** -----  Barra   ----- */
+    color: #ffff;
+    font-weight: 300 px;
+    text-decoration: none;
+    margin-right: 5px; 
+  }
+
+  nav > a:hover {       /** -----  Barra Hover  ---- */
+    text-decoration: underline;
+  }
+
+
+
+    /** ----- ----- ----- Titulos ----- ----- ----- */
+
+  h2{         /** -----  Todos los H2  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 30px 30px 30px;
+    
+    border-bottom: 2px solid #ffffb7;
+    
+    /**
+    background-color: #ffffb7;
+    line-height: 1.5;
+    padding: 1 2em;
+    margin: 2em;
+    border-style: outset;*/
+
+  }
+
+  h4 {      /** -----  Todos los H4  ---- */
+    color: azure;
+    font-family: "Poppins"; 
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+  /** ----- ----- ----- Resto del texto ----- ----- ----- */
+
+  p {     /** -----  Todos los parrafos  ---- */
+    color: azure;
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+
+  } 
+
+  .sobre-mi{        /** -----  Texto sobre mi  ---- */
+    color: azure;
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    text-align: center;
+    font-weight:500;
+    font-size: 12px;
+    line-height: 1.6;
+    font-family: "Poppins"
+    
+  }
+
+
+  /** STUDY CARDS */
+
+  .cards{              /**all cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .cards .card{       /** study card */
+    background: #27282D; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 66%;
+    height: 300px;
+    align-items: left;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  }
+
+  .content-card {     /** study, voluntariado and tutorcontent card */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .carrera-content{     /** descripción sobre cada carrera */
+    color: azure;
+    display: none;
+    padding-bottom: 5px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  } 
+
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+
+  .cambio_aspecto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+
+    /** ----- ----- ----- CARTAS DE EXPERIENCIA ----- ----- ----- */
+
+  .carta-nacion{     /** -----  Carta Nación  ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-nacion{    /** -----  Descripción funciones en el nación  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+  }
+
+  .atencion{
+    display: none;
+  }
+
+  .carta-restaurante{      /** -----  Carta Restaurante  ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .lista-restaurante{     /** -----  Descripción funciones en Restaurante  ---- */
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:500;
+    line-height: 1.6;
+    font-family: "Poppins"
+    
+  }
+
+
+  .content-card1{     /** -----  Content card Nación y restaurante  ---- */
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  .carta-voluntariado{      /** -----  Carta Voluntariado  ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+  .carta-tutor{      /** -----  Carta Tutor ---- */
+    background: #27282D; 
+    width: 66%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right:  2px solid #5d5d5d;
+    border-bottom: 1px solid #5d5d5d;
+  } 
+
+
+  .texto-cartas{        /** -----  Texto cartas  ---- */
+    font-size: 11px;
+    padding-bottom: 10px;
+  }
+
+
+  /** ----- ----- ----- HABILIDADES ----- ----- ----- */
+
+
+  .content-hab1 , .content-hab2 , .content-hab3 {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+
+  .todo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /** Display flex y poner column y centrado para que este uno arriba del otro */
+  }
+
+  .textskills{
+    font-size: 10px;
+  }
+
+  .barra{
+    width: 90px;
+    height: 9px;
+    margin: 10px;
+    background: rgba(225,225,225,0.5);
+    /** *background: rgba(225,225,225,0.5); */
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5)y;
+    /* box-shadow: 20px 25px 45px rgba(0,0,0,0.5);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);*/
+
+  }
+  .progreso{
+    width: var(--w);
+    height: 100%;
+    background: #d2f15fd8;
+    /** background: rgba(225,225,225,0.5);*/
+    border-radius: 10px;
+    animation: Aumentar 4s ease;
+  }
+
+  @keyframes Aumentar{
+    0%{width: 0%;}
+    100%{width: var(--w);}
+  }
+  
+  /** ----- ----- ----- CONSULTAS ----- ----- ----- */
+
+
+  .input-group {     /** ----- Cuadro Completo de consultas ---- */
+    padding: 10px 40px 15px 40px;
+  }
+
+  #last-button{
+    display: flex;
+    position: center;
+    
+  }
+
+    /** ----- ----- ----- FOOTER ----- ----- ----- */
+
+  footer {      /** ----- Configuración General ---- */
+    background: #212424;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .contenedor-footer{    /** ----- Contenedor general de footer ---- */
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .content-foo{                 /** ----- H6 + texto por debajo ---- */
+    text-align: center;
+  }
+
+  .content-foot h6{           /** ----- H6 + Border Bottom ---- */
+    color: #777777;
+    border-bottom: 3px solid #ffffb7;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .content-foot p{        /** ----- texto por debajo ---- */
+    color: azure;
+  }
+
+  .titulo-final, .datos{      /** ----- Datos de contacto + texto final ---- */
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    color: #3d3d3d;
+    padding: 20px 0 20px 0;
+
+  }
+
+}
+
+
+
